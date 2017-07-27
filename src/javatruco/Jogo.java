@@ -84,7 +84,7 @@ public class Jogo {
                     maior = verMaior(c);
                 }
                 // Verifica quem venceu
-                mesa.limpar();
+               mesa.limpar(c, emJogo);
                 if(maior<0){
                     // Empate
                     System.out.println("Empate!\n");
