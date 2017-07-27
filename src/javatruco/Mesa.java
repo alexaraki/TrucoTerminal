@@ -56,7 +56,10 @@ public class Mesa {
         }
     }
     
-    public void limpar(){
+    public void limpar(Carta[] c, int num){
+        for(;num>0;num--){
+            c[num-1] = null;
+        }
         this.maior = null;
     }
     
